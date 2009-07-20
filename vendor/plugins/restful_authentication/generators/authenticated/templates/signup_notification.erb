@@ -1,0 +1,12 @@
+Your account has been created.
+
+<% if options[:email_only] -%>
+  Email: <%%=h @<%= file_name %>.email %>
+<% else -%>
+  Username: <%%=h @<%= file_name %>.login %>
+<% end -%>
+  Password: <%%=h @<%= file_name %>.password %>
+
+Visit this url to activate your account:
+
+  <%%=h @url %>

@@ -1,1 +1,4 @@
-<a href="/signup">Sign up</a>
+<%= link_to "Sign up", signup_path %>
+<% if false == self.current_user.nil? %>
+<%= link_to "New Project", new_projects_path %>
+<% end -%>

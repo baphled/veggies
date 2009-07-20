@@ -1,0 +1,17 @@
+<% form_for @project, :url => projects_path do |f| -%>
+	<p>
+		<%= f.label :title, "Title" %><br/>
+		<%= f.text_field :title %>
+	</p>
+		
+	<p>
+		<%= f.label :description, "Description" %><br/>
+		<%= f.text_area :description %>
+	</p>
+		
+	<p>
+		<%= f.label :aim, "Aim" %><br/>
+		<%= f.text_area :aim %>
+	</p>
+	<%= f.submit "Create", :disable_with => 'Creating...' %>
+<% end -%>

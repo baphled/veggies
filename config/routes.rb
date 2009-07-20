@@ -10,6 +10,7 @@ ActionController::Routing::Routes.draw do |map|
              :activation_code => nil
              
   map.resources :users
+  map.resource :projects
   map.resource :session
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,0 +1,56 @@
+# Logfile created on Mon Jul 20 22:34:53 +0100 2009REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-20 22:34:54) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-20 22:35:13) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:36:05) [GET]
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:36:10) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:38:33) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:39:58) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:42:46) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:42:50) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:47:11) [GET]
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-07-20 22:47:16) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]

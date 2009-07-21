@@ -16,4 +16,20 @@ Feature: As a registered user I must be able to create projects
 			And I click new project
 			And fill in the new project form without a title
 			And submit the form
-		  Then a validation message will be displayed
+		  Then a validation message will be displayed say 'Title can't be blank'
+		
+		Scenario: When submitting the form the user must be alerted if the description is not present
+	  	Given an activated user logged in as 'reggie'
+		  When I visit the home page
+			And I click new project
+			And fill in the new project form without a description
+			And submit the form
+		  Then a validation message will be displayed say 'Description can't be blank'
+		
+		Scenario: When submitting the form the user must be alerted if the aim is not present
+	  	Given an activated user logged in as 'reggie'
+		  When I visit the home page
+			And I click new project
+			And fill in the new project form without a aim
+			And submit the form
+		  Then a validation message will be displayed say 'Aim can't be blank'

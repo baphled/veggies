@@ -22,12 +22,15 @@ describe ProjectsController do
     
   	context "an invalid project" do
   	  before(:each) do
-  	    @project.stub!(:save).and_return false
+  	    @project.stub!(:title).and_return nil
+  	    
+  	    #@project.stub!(:save).and_return true
   	    post :create
   	  end
   	  
   	  it "should not save the story" do
-  	    @project.save.should eql false
+  	    @project.title.should eql nil
+  	    @project.save.should_not eql true
   	  end
       
     end
